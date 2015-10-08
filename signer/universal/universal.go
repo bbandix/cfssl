@@ -2,13 +2,13 @@
 package universal
 
 import (
-	"github.com/cloudflare/cfssl/config"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/crypto/pkcs11key"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
-	"github.com/cloudflare/cfssl/signer/pkcs11"
-	"github.com/cloudflare/cfssl/signer/remote"
+	"github.com/bbandix/cfssl/config"
+	cferr "github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/crypto/pkcs11key"
+	"github.com/bbandix/cfssl/signer"
+	"github.com/bbandix/cfssl/signer/local"
+	"github.com/bbandix/cfssl/signer/pkcs11"
+	"github.com/bbandix/cfssl/signer/remote"
 )
 
 // Root is used to define where the universal signer gets its public
