@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cfssl/csr"
-	// "github.com/cloudflare/cfssl/helpers/testsuite/stoppable"
+	"github.com/bbandix/cfssl/csr"
+	// "github.com/bbandix/cfssl/helpers/testsuite/stoppable"
 )
 
 // CFSSLServerData is the data with which a server is initialized. These fields

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
+	"github.com/bbandix/cfssl/config"
 )
 
 var expiry = 1 * time.Minute

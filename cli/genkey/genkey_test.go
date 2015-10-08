@@ -7,7 +7,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/bbandix/cfssl/cli"
 )
 
 func TestGenkey(t *testing.T) {

@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/info"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/bbandix/cfssl/api"
+	"github.com/bbandix/cfssl/auth"
+	"github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/info"
+	"github.com/bbandix/cfssl/log"
 )
 
 // A server points to a single remote CFSSL instance.

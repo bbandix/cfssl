@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cfssl/auth"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	ocspConfig "github.com/cloudflare/cfssl/ocsp/config"
+	"github.com/bbandix/cfssl/auth"
+	cferr "github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/helpers"
+	"github.com/bbandix/cfssl/log"
+	ocspConfig "github.com/bbandix/cfssl/ocsp/config"
 )
 
 // A CSRWhitelist stores booleans for fields in the CSR. If a CSRWhitelist is

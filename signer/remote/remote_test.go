@@ -11,15 +11,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/api"
-	apiinfo "github.com/cloudflare/cfssl/api/info"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/info"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
+	"github.com/bbandix/cfssl/api"
+	apiinfo "github.com/bbandix/cfssl/api/info"
+	"github.com/bbandix/cfssl/config"
+	"github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/helpers"
+	"github.com/bbandix/cfssl/info"
+	"github.com/bbandix/cfssl/log"
+	"github.com/bbandix/cfssl/signer"
+	"github.com/bbandix/cfssl/signer/local"
 )
 
 const (

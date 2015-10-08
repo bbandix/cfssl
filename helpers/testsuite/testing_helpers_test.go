@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	// "github.com/cloudflare/cfssl/bundler"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/helpers"
+	// "github.com/bbandix/cfssl/bundler"
+	"github.com/bbandix/cfssl/csr"
+	"github.com/bbandix/cfssl/helpers"
 )
 
 const (

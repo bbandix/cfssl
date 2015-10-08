@@ -11,13 +11,13 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/universal"
+	"github.com/bbandix/cfssl/api"
+	"github.com/bbandix/cfssl/config"
+	"github.com/bbandix/cfssl/csr"
+	"github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/log"
+	"github.com/bbandix/cfssl/signer"
+	"github.com/bbandix/cfssl/signer/universal"
 )
 
 // Sum contains digests for a certificate or certificate request.

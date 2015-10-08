@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/csr"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/initca"
+	"github.com/bbandix/cfssl/cli"
+	"github.com/bbandix/cfssl/csr"
+	cferr "github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/initca"
 )
 
 var genkeyUsageText = `cfssl genkey -- generate a new key and CSR

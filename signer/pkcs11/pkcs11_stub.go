@@ -3,9 +3,9 @@
 package pkcs11
 
 import (
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/bbandix/cfssl/config"
+	"github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/signer"
 )
 
 // Config contains configuration information required to use a PKCS

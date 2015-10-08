@@ -17,11 +17,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cfssl/crypto/pkcs12"
-	"github.com/cloudflare/cfssl/crypto/pkcs7"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers/derhelpers"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/bbandix/cfssl/crypto/pkcs12"
+	"github.com/bbandix/cfssl/crypto/pkcs7"
+	cferr "github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/helpers/derhelpers"
+	"github.com/bbandix/cfssl/log"
 )
 
 // OneYear is a time.Duration representing a year's worth of seconds.

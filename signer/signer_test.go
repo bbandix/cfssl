@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cloudflare/cfssl/config"
+	"github.com/bbandix/cfssl/config"
 )
 
 func TestSplitHosts(t *testing.T) {

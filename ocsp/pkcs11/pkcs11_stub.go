@@ -3,9 +3,9 @@
 package pkcs11
 
 import (
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/ocsp"
-	ocspConfig "github.com/cloudflare/cfssl/ocsp/config"
+	"github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/ocsp"
+	ocspConfig "github.com/bbandix/cfssl/ocsp/config"
 )
 
 // Enabled is set to true if PKCS #11 support is present.

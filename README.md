@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/cloudflare/cfssl.png?branch=master)](https://travis-ci.org/cloudflare/cfssl)
 [![Coverage Status](http://codecov.io/github/cloudflare/cfssl/coverage.svg?branch=master)](http://codecov.io/github/cloudflare/cfssl?branch=master)
-[![GoDoc](https://godoc.org/github.com/cloudflare/cfssl?status.png)](https://godoc.org/github.com/cloudflare/cfssl)
+[![GoDoc](https://godoc.org/github.com/bbandix/cfssl?status.png)](https://godoc.org/github.com/bbandix/cfssl)
 
 ## CloudFlare's PKI/TLS toolkit
 
@@ -43,7 +43,7 @@ If these are not installed, you can pass `-tags nopkcs11` to the below
 go get commands.
 
 ```
-$ go get -u github.com/cloudflare/cfssl/cmd/cfssl
+$ go get -u github.com/bbandix/cfssl/cmd/cfssl
 ```
 
 will download and build the CFSSL tool, installing it in
@@ -51,7 +51,7 @@ will download and build the CFSSL tool, installing it in
 this repo:
 
 ```
-$ go get -u github.com/cloudflare/cfssl/cmd/...
+$ go get -u github.com/bbandix/cfssl/cmd/...
 ```
 
 This will download, build, and install `cfssl`, `cfssljson`, and
@@ -130,7 +130,7 @@ cfssl bundle [-ca-bundle bundle] [-int-bundle bundle] \
 The bundles are used for the root and intermediate certificate
 pools. In addition, platform metadata is specified through '-metadata'
 The bundle files, metadata file (and auxiliary files) can be
-found at [cfssl_trust](https://github.com/cloudflare/cfssl_trust)
+found at [cfssl_trust](https://github.com/bbandix/cfssl_trust)
 
 
 Specify PEM-encoded client certificate and key through '-cert' and
@@ -307,7 +307,7 @@ for configuring and running the CA.
 verifying certificates. It can be installed with
 
 ```
-go get -u github.com/cloudflare/cfssl/cmd/mkbundle
+go get -u github.com/bbandix/cfssl/cmd/mkbundle
 ```
 
 It takes a collection of certificates, checks for CRL revocation (OCSP

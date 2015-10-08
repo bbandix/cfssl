@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/universal"
+	"github.com/bbandix/cfssl/cli"
+	"github.com/bbandix/cfssl/config"
+	"github.com/bbandix/cfssl/log"
+	"github.com/bbandix/cfssl/signer"
+	"github.com/bbandix/cfssl/signer/universal"
 )
 
 // Usage text of 'cfssl sign'

@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/revoke"
+	"github.com/bbandix/cfssl/log"
+	"github.com/bbandix/cfssl/revoke"
 )
 
 // worker does all the parsing and validation of the certificate(s)

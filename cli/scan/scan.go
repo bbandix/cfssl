@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/scan"
+	"github.com/bbandix/cfssl/cli"
+	"github.com/bbandix/cfssl/scan"
 )
 
 var scanUsageText = `cfssl scan -- scan a host for issues

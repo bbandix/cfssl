@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/cloudflare/cf-tls/tls"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/bbandix/cfssl/helpers"
+	"github.com/bbandix/cfssl/log"
 )
 
 var (

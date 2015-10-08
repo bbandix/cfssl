@@ -10,9 +10,9 @@ RUN go get github.com/dgryski/go-rc2
 RUN go get golang.org/x/crypto/ocsp
 RUN go get github.com/GeertJohan/go.rice
 
-ENV GOPATH /go/src/github.com/cloudflare/cfssl:/go
+ENV GOPATH /go/src/github.com/bbandix/cfssl:/go
 ENV USER root
 
-WORKDIR /go/src/github.com/cloudflare/cfssl
+WORKDIR /go/src/github.com/bbandix/cfssl
 
-ADD . /go/src/github.com/cloudflare/cfssl
+ADD . /go/src/github.com/bbandix/cfssl

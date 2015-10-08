@@ -15,11 +15,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/helpers/derhelpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/whitelist"
+	"github.com/bbandix/cfssl/config"
+	"github.com/bbandix/cfssl/helpers"
+	"github.com/bbandix/cfssl/helpers/derhelpers"
+	"github.com/bbandix/cfssl/log"
+	"github.com/bbandix/cfssl/whitelist"
 
 	"github.com/cloudflare/redoctober/client"
 	"github.com/cloudflare/redoctober/core"

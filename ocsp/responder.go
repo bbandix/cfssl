@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/cloudflare/cfssl/log"
+	"github.com/bbandix/cfssl/log"
 	"golang.org/x/crypto/ocsp"
 )
 

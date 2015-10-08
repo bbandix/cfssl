@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/bbandix/cfssl/config"
+	"github.com/bbandix/cfssl/csr"
+	"github.com/bbandix/cfssl/helpers"
+	"github.com/bbandix/cfssl/log"
+	"github.com/bbandix/cfssl/signer"
 )
 
 const (

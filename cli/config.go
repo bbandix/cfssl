@@ -5,10 +5,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/signer/pkcs11"
-	"github.com/cloudflare/cfssl/signer/universal"
+	"github.com/bbandix/cfssl/config"
+	"github.com/bbandix/cfssl/helpers"
+	"github.com/bbandix/cfssl/signer/pkcs11"
+	"github.com/bbandix/cfssl/signer/universal"
 )
 
 // Config is a type to hold flag values used by cfssl commands.

@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/info"
+	"github.com/bbandix/cfssl/config"
+	"github.com/bbandix/cfssl/csr"
+	cferr "github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/helpers"
+	"github.com/bbandix/cfssl/info"
 )
 
 // MaxPathLen is the default path length for a new CA certificate.

@@ -15,12 +15,12 @@ import (
 	"math/big"
 	"net"
 
-	"github.com/cloudflare/cfssl/config"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/info"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/bbandix/cfssl/config"
+	cferr "github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/helpers"
+	"github.com/bbandix/cfssl/info"
+	"github.com/bbandix/cfssl/log"
+	"github.com/bbandix/cfssl/signer"
 )
 
 // Signer contains a signer that uses the standard library to

@@ -6,11 +6,11 @@ import (
 
 	"encoding/base64"
 	"encoding/json"
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/ocsp"
+	"github.com/bbandix/cfssl/api"
+	"github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/helpers"
+	"github.com/bbandix/cfssl/log"
+	"github.com/bbandix/cfssl/ocsp"
 	"io/ioutil"
 	"time"
 )

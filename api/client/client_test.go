@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/cloudflare/cfssl/auth"
+	"github.com/bbandix/cfssl/auth"
 )
 
 var (

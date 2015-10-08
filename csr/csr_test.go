@@ -9,8 +9,8 @@ import (
 	"encoding/pem"
 	"testing"
 
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/bbandix/cfssl/errors"
+	"github.com/bbandix/cfssl/helpers"
 )
 
 // TestBasicKeyRequest ensures that key generation returns the same type of

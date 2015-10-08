@@ -10,7 +10,7 @@ before_install:
   # multiple packages within CFSSL, Travis won't pass for the branch on their
   # own repo. To fix that, we add a symlink.
   - mkdir -p $TRAVIS_BUILD_DIR $GOPATH/src/github.com/cloudflare
-  - test ! -d $GOPATH/src/github.com/cloudflare/cfssl && ln -s $TRAVIS_BUILD_DIR $GOPATH/src/github.com/cloudflare/cfssl || true
+  - test ! -d $GOPATH/src/github.com/bbandix/cfssl && ln -s $TRAVIS_BUILD_DIR $GOPATH/src/github.com/bbandix/cfssl || true
 
 before_script:
   - go get golang.org/x/tools/cmd/vet

@@ -1,7 +1,7 @@
 #!/bin/bash
 set -o errexit
 cd $(dirname $0)
-ls $GOPATH/src/github.com/cloudflare/cfssl
+ls $GOPATH/src/github.com/bbandix/cfssl
 
 go vet ./...
 if ! which fgt > /dev/null ; then

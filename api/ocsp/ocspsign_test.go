@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"encoding/base64"
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/ocsp"
+	"github.com/bbandix/cfssl/api"
+	"github.com/bbandix/cfssl/ocsp"
 	goocsp "golang.org/x/crypto/ocsp"
 	"time"
 )

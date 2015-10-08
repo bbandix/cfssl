@@ -1,8 +1,8 @@
 FROM golang:1.4.2
 
-WORKDIR /go/src/github.com/cloudflare/cfssl
+WORKDIR /go/src/github.com/bbandix/cfssl
 
-ENV GOPATH /go/src/github.com/cloudflare/cfssl:/go
+ENV GOPATH /go/src/github.com/bbandix/cfssl:/go
 ENV USER root
 
 EXPOSE 8888
@@ -16,7 +16,7 @@ RUN go get github.com/dgryski/go-rc2
 RUN go get golang.org/x/crypto/ocsp
 RUN go get github.com/GeertJohan/go.rice
 
-ADD . /go/src/github.com/cloudflare/cfssl
+ADD . /go/src/github.com/bbandix/cfssl
 
 RUN go build cmd/... && \
   cp cfssl /usr/local/bin && \

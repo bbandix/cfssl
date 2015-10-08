@@ -14,7 +14,7 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	"github.com/cloudflare/cfssl/crypto/pkcs12/pbkdf"
+	"github.com/bbandix/cfssl/crypto/pkcs12/pbkdf"
 	rc2 "github.com/dgryski/go-rc2"
 )
 
