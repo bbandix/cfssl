@@ -4,10 +4,10 @@ package universal
 import (
 	"github.com/bbandix/cfssl/config"
 	cferr "github.com/bbandix/cfssl/errors"
-	"github.com/bbandix/cfssl/crypto/pkcs11key"
+//	"github.com/bbandix/cfssl/crypto/pkcs11key"
 	"github.com/bbandix/cfssl/signer"
 	"github.com/bbandix/cfssl/signer/local"
-	"github.com/bbandix/cfssl/signer/pkcs11"
+//	"github.com/bbandix/cfssl/signer/pkcs11"
 	"github.com/bbandix/cfssl/signer/remote"
 )
 
@@ -37,6 +37,7 @@ func fileBackedSigner(root *Root, policy *config.Signing) (signer.Signer, bool, 
 
 // pkcs11Signer looks for token, module, slot, and PIN configuration
 // options in the root.
+/*
 func pkcs11Signer(root *Root, policy *config.Signing) (signer.Signer, bool, error) {
 	module := root.Config["pkcs11-module"]
 	tokenLabel := root.Config["pkcs11-token-label"]
@@ -62,9 +63,9 @@ func pkcs11Signer(root *Root, policy *config.Signing) (signer.Signer, bool, erro
 	s, err := pkcs11.New(certFile, policy, &conf)
 	return s, true, err
 }
-
+*/
 var localSignerList = []localSignerCheck{
-	pkcs11Signer,
+//	pkcs11Signer,
 	fileBackedSigner,
 }
 
